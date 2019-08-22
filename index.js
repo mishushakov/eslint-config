@@ -1,22 +1,17 @@
 module.exports = {
-    'env': {
-        'browser': true,
-        'commonjs': true,
-        'es6': true,
-        'node': true
+    env: {
+        browser: true,
+        commonjs: true,
+        es6: true,
+        node: true
     },
-    'extends': 'eslint:recommended',
-    'globals': {
-        'Atomics': 'readonly',
-        'SharedArrayBuffer': 'readonly'
+    extends: 'eslint:recommended',
+    parserOptions: {
+        ecmaVersion: 2018,
+        sourceType: 'module'
     },
-    'parserOptions': {
-        'ecmaVersion': 2018,
-        'sourceType': 'module'
-    },
-    'rules': {
-        'vue/html-indent': ['error', 4],
-        'indent': ['error', 4, {"MemberExpression": 0}],
+    rules: {
+        'indent': ['error', 4, {'MemberExpression': 0}],
         'linebreak-style': ['error', 'unix'],
         'quotes': ['error', 'single'],
         'semi': ['error', 'never'],
@@ -58,7 +53,7 @@ module.exports = {
         'key-spacing': 'error',
         'lines-between-class-members': 'error',
         'multiline-comment-style': 'error',
-        'newline-per-chained-call': ['error', {"ignoreChainWithDepth": 2}],
+        'newline-per-chained-call': ['error', {'ignoreChainWithDepth': 4}],
         'no-lonely-if': 'error',
         'no-trailing-spaces': 'error',
         'no-unneeded-ternary': 'error',
@@ -74,6 +69,7 @@ module.exports = {
         'keyword-spacing': 'error',
         'space-in-parens': ['error', 'never'],
         'space-unary-ops': 'error',
+        'space-infix-ops': 'error',
         'spaced-comment': 'error',
         'wrap-regex': 'error',
         'no-duplicate-imports': 'error',
