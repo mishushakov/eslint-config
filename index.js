@@ -53,7 +53,11 @@ module.exports = {
         'prefer-object-spread': 'error',
         'quote-props': ['error', 'consistent'],
         'space-before-blocks': ['error', 'never'],
-        'space-before-function-paren': ['error', 'never'],
+        'space-before-function-paren': ['error', {
+            'anonymous': 'never',
+            'named': 'never',
+            'asyncArrow': 'always'
+        }],
         'keyword-spacing': 'error',
         'space-in-parens': ['error', 'never'],
         'space-unary-ops': 'error',
