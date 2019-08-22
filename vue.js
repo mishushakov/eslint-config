@@ -12,6 +12,6 @@ module.exports = {
         'vue/singleline-html-element-content-newline': 'off',
         'vue/html-closing-bracket-newline': 'off',
         'vue/no-use-v-if-with-v-for': 'off',
-        'vue/name-property-casing': 'off'
+        'vue/name-property-casing': 'kebab-case'
     }
 }
