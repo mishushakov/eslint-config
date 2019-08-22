@@ -1,12 +1,10 @@
 {
   "name": "@mishushakov/my-eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My eslint config",
   "main": "index.js",
   "repository": "https://github.com/mishushakov/my-eslint.git",
   "author": "MishUshakov <mish.ushakov@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "eslint": "^6.2.1"
-  }
+  "peerDependencies": {}
 }
