@@ -27,7 +27,6 @@ module.exports = {
         'no-prototype-builtins': 'error',
         'no-restricted-globals': 'error',
         'array-bracket-newline': ['error', 'consistent'],
-        'array-bracket-spacing': ['error', 'never'],
         'array-element-newline': ['error', 'consistent'],
         'block-spacing': 'error',
         'comma-dangle': ['error', 'never'],
